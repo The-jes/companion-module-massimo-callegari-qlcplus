@@ -82,6 +82,7 @@ module.exports = (instance) => {
 					min: 0,
 					max: 255,
 					useVariables: true,
+					useExpressions: true,
 				},
 			],
 			callback: (event) => {
